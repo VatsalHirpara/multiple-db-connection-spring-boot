@@ -10,20 +10,21 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.nagarro.multipledbpoc.model.car.Car;
 import com.nagarro.multipledbpoc.repository.car.CarRepository;
+import com.nagarro.multipledbpoc.service.CarService;
 
 @RestController
 public class CarController {
 
 	@Autowired
-	CarRepository  carRepository;
+	CarService carService;
 	
 	@GetMapping("/cars")
 	public List<Car> getBooks() {
-		return carRepository.findAll();
+		return carService.getCars();
 	}
 
 	@PostMapping("/cars")
 	public Car saveCar(@RequestBody Car car ) {
-		return carRepository.save(car);
+		return carService.save(car);
 	}
 }

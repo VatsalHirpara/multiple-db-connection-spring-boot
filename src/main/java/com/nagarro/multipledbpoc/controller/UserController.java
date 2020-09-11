@@ -10,20 +10,21 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.nagarro.multipledbpoc.model.user.User;
 import com.nagarro.multipledbpoc.repository.user.UserRepository;
+import com.nagarro.multipledbpoc.service.UserService;
 
 @RestController
 public class UserController {
 
 	@Autowired
-	UserRepository userRepository;
+	UserService userService;
 
 	@GetMapping("/users")
 	public List<User> getUsers() {
-		return userRepository.findAll();
+		return userService.getUsers();
 	}
 	
 	@PostMapping("/users")
-	public User saveCar(@RequestBody User user ) {
-		return userRepository.save(user);
+	public User saveUser(@RequestBody User user ) {
+		return userService.save(user);
 	}
 }

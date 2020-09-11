@@ -1,4 +1,4 @@
-package com.nagarro.multipledbpoc.config;
+package com.nagarro.multipledbpoc.configuration;
 
 import java.util.HashMap;
 
@@ -11,6 +11,7 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -19,30 +20,33 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(entityManagerFactoryRef = "carEntityManagerFactory", transactionManagerRef = "carTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.car" })
-public class CarDBConfig {
+@EnableJpaRepositories(entityManagerFactoryRef = "userEntityManagerFactory", transactionManagerRef = "userTransactionManager", basePackages = {
+		"com.nagarro.multipledbpoc.repository.user" })
+public class UserDBConfig {
 
-	@Bean(name = "carDataSource")
-	@ConfigurationProperties(prefix = "spring.car.datasource")
+	@Primary
+	@Bean(name = "userDataSource")
+	@ConfigurationProperties(prefix = "spring.user.datasource")
 	public DataSource dataSource() {
 		return DataSourceBuilder.create().build();
 	}
 
-	@Bean(name = "carEntityManagerFactory")
+	@Primary
+	@Bean(name = "userEntityManagerFactory")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder,
-			@Qualifier("carDataSource") DataSource dataSource) {
+			@Qualifier("userDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
 		properties.put("hibernate.hbm2ddl.auto", "update");
-		properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
-		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.model.car")
-				.persistenceUnit("Car").build();
+		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
+		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.model.user")
+				.persistenceUnit("User").build();
 	}
 
-	@Bean(name = "carTransactionManager")
+	@Primary
+	@Bean(name = "userTransactionManager")
 	public PlatformTransactionManager transactionManager(
-			@Qualifier("carEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
+			@Qualifier("userEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
 		return new JpaTransactionManager(entityManagerFactory);
 	}
 }
