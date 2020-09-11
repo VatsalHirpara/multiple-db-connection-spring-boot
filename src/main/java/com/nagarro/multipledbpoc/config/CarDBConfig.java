@@ -34,8 +34,8 @@ public class CarDBConfig {
 			@Qualifier("carDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
-		properties.put("hibernate.hbm2ddl.auto", "update");
-		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
+		properties.put("hibernate.hbm2ddl.auto", "create");
+		properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
 		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.model.car")
 				.persistenceUnit("Car").build();
 	}
