@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.nagarro.multipledbpoc.helper.CSVHelper;
 import com.nagarro.multipledbpoc.service.CSVService;
+import com.nagarro.multipledbpoc.util.CSVUtil;
 
 @RestController
 public class VehiclePricingCSVController {
@@ -22,7 +22,7 @@ public class VehiclePricingCSVController {
 
 		String message = "";
 
-		if (CSVHelper.hasCSVFormat(file)) {
+		if (CSVUtil.hasCSVFormat(file)) {
 			try {
 				csvService.save(file);
 				message = "Uploaded the file successfully: " + file.getOriginalFilename();

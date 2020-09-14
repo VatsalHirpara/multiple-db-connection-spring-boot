@@ -1,4 +1,4 @@
-package com.nagarro.multipledbpoc.helper;
+package com.nagarro.multipledbpoc.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.nagarro.multipledbpoc.domain.vehiclepricing.VehiclePricing;
 
-public class CSVHelper {
+public class CSVUtil {
 	public static String TYPE = "text/csv";
 	public static boolean hasCSVFormat(MultipartFile file) {
 
