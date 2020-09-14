@@ -19,30 +19,30 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(entityManagerFactoryRef = "carEntityManagerFactory", transactionManagerRef = "carTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.vehicle" })
-public class CarDBConfig {
-
-	@Bean(name = "carDataSource")
-	@ConfigurationProperties(prefix = "spring.car.datasource")
+@EnableJpaRepositories(entityManagerFactoryRef = "vehiclePricingEntityManagerFactory", transactionManagerRef = "vehiclePricingTransactionManager", basePackages = {
+		"com.nagarro.multipledbpoc.repository.vehiclepricing" })
+public class VehiclePricingConfig {
+	@Bean(name = "vehiclePricingDataSource")
+	@ConfigurationProperties(prefix = "spring.vehiclepricing.datasource")
 	public DataSource dataSource() {
 		return DataSourceBuilder.create().build();
 	}
 
-	@Bean(name = "carEntityManagerFactory")
+	@Bean(name = "vehiclePricingEntityManagerFactory")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder,
-			@Qualifier("carDataSource") DataSource dataSource) {
+			@Qualifier("vehiclePricingDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
 		properties.put("hibernate.hbm2ddl.auto", "update");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
-		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.vehicle")
-				.persistenceUnit("Car").build();
+		return builder.dataSource(dataSource).properties(properties)
+				.packages("com.nagarro.multipledbpoc.domain.vehiclepricing").persistenceUnit("VehiclePricing").build();
 	}
 
-	@Bean(name = "carTransactionManager")
+	@Bean(name = "vehiclePricingTransactionManager")
 	public PlatformTransactionManager transactionManager(
-			@Qualifier("carEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
+			@Qualifier("vehiclePricingEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
 		return new JpaTransactionManager(entityManagerFactory);
 	}
+
 }
