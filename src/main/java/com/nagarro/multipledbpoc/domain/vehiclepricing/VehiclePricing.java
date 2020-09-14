@@ -49,40 +49,40 @@ public class VehiclePricing {
 
 	private String UniqueCode;
 
-	private String MonthlyRentalPreGST;
+	private Integer MonthlyRentalPreGST;
 
-	private String MonthlyRentalGST;
+	private Integer MonthlyRentalGST;
 
-	private String MonthlyRentalPostGST;
+	private Integer MonthlyRentalPostGST;
 
-	private String DiscountPreGST;
+	private Integer DiscountPreGST;
 
-	private String DiscountGST;
+	private Integer DiscountGST;
 
-	private String DiscountPostGST;
+	private Integer DiscountPostGST;
 
-	private String NetMonthlyRentalPreGST;
+	private Integer NetMonthlyRentalPreGST;
 
-	private String NetMonthlyRentalGST;
+	private Integer NetMonthlyRentalGST;
 
-	private String NetMonthlyRentalPostGST;
+	private Integer NetMonthlyRentalPostGST;
 
-	private String SecurityDepositPreGST;
+	private Integer SecurityDepositPreGST;
 
-	private String SecurityDepositGST;
+	private Integer SecurityDepositGST;
 
-	private String SecurityDepositPostGST;
+	private Integer SecurityDepositPostGST;
 
-	private String ProcFeePreGST;
+	private Integer ProcFeePreGST;
 
-	private String ProcFeeGST;
+	private Integer ProcFeeGST;
 
-	private String ProcFeePostGST;
+	private Integer ProcFeePostGST;
 
-	private String CustomerNeedstoPayPreGST;
+	private Integer CustomerNeedstoPayPreGST;
 
-	private String CustomerNeedstoPayGST;
+	private Integer CustomerNeedstoPayGST;
 
-	private String CustomerNeedstoPayPostGST;
+	private Integer CustomerNeedstoPayPostGST;
 
 }
