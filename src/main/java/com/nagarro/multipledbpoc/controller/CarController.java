@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nagarro.multipledbpoc.model.car.Car;
-import com.nagarro.multipledbpoc.repository.car.CarRepository;
+import com.nagarro.multipledbpoc.domain.vehicle.Car;
 import com.nagarro.multipledbpoc.service.CarService;
 
 @RestController

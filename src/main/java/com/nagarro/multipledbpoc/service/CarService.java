@@ -2,9 +2,7 @@ package com.nagarro.multipledbpoc.service;
 
 import java.util.List;
 
-import org.springframework.transaction.annotation.Transactional;
-
-import com.nagarro.multipledbpoc.model.car.Car;
+import com.nagarro.multipledbpoc.domain.vehicle.Car;
 
 public interface CarService {
 

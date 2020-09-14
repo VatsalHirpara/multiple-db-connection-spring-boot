@@ -8,23 +8,22 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nagarro.multipledbpoc.model.user.User;
-import com.nagarro.multipledbpoc.repository.user.UserRepository;
-import com.nagarro.multipledbpoc.service.UserService;
+import com.nagarro.multipledbpoc.domain.customer.Customer;
+import com.nagarro.multipledbpoc.service.CustomerService;
 
 @RestController
-public class UserController {
+public class CustomerController {
 
 	@Autowired
-	UserService userService;
+	CustomerService customerService;
 
 	@GetMapping("/users")
-	public List<User> getUsers() {
-		return userService.getUsers();
+	public List<Customer> getUsers() {
+		return customerService.getUsers();
 	}
 	
 	@PostMapping("/users")
-	public User saveUser(@RequestBody User user ) {
-		return userService.save(user);
+	public Customer saveUser(@RequestBody Customer customer ) {
+		return customerService.save(customer);
 	}
 }

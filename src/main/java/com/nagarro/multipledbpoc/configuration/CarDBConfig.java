@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "carEntityManagerFactory", transactionManagerRef = "carTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.car" })
+		"com.nagarro.multipledbpoc.repository.vehicle" })
 public class CarDBConfig {
 
 	@Bean(name = "carDataSource")
@@ -36,7 +36,7 @@ public class CarDBConfig {
 		HashMap<String, Object> properties = new HashMap<>();
 		properties.put("hibernate.hbm2ddl.auto", "update");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
-		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.model.car")
+		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.vehicle")
 				.persistenceUnit("Car").build();
 	}
 

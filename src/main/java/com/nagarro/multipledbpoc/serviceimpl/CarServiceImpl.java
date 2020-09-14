@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.nagarro.multipledbpoc.model.car.Car;
-import com.nagarro.multipledbpoc.repository.car.CarRepository;
+import com.nagarro.multipledbpoc.domain.vehicle.Car;
+import com.nagarro.multipledbpoc.repository.vehicle.CarRepository;
 import com.nagarro.multipledbpoc.service.CarService;
 
 @Service

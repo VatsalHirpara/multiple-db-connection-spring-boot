@@ -1,4 +1,4 @@
-package com.nagarro.multipledbpoc.model.user;
+package com.nagarro.multipledbpoc.domain.vehicle;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,11 +14,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "USERS")
-public class User {
+@Table(name = "Cars")
+public class Car {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	private String name;
-	private String address;
+	private String modelName;
+	private String color;
 }

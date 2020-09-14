@@ -20,33 +20,33 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(entityManagerFactoryRef = "userEntityManagerFactory", transactionManagerRef = "userTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.user" })
-public class UserDBConfig {
+@EnableJpaRepositories(entityManagerFactoryRef = "customerEntityManagerFactory", transactionManagerRef = "customerTransactionManager", basePackages = {
+		"com.nagarro.multipledbpoc.repository.customer" })
+public class CustomerDBConfig {
 
 	@Primary
-	@Bean(name = "userDataSource")
-	@ConfigurationProperties(prefix = "spring.user.datasource")
+	@Bean(name = "customerDataSource")
+	@ConfigurationProperties(prefix = "spring.customer.datasource")
 	public DataSource dataSource() {
 		return DataSourceBuilder.create().build();
 	}
 
 	@Primary
-	@Bean(name = "userEntityManagerFactory")
+	@Bean(name = "customerEntityManagerFactory")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder,
-			@Qualifier("userDataSource") DataSource dataSource) {
+			@Qualifier("customerDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
 		properties.put("hibernate.hbm2ddl.auto", "update");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
-		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.model.user")
-				.persistenceUnit("User").build();
+		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.customer")
+				.persistenceUnit("Customer").build();
 	}
 
 	@Primary
-	@Bean(name = "userTransactionManager")
+	@Bean(name = "customerTransactionManager")
 	public PlatformTransactionManager transactionManager(
-			@Qualifier("userEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
+			@Qualifier("customerEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
 		return new JpaTransactionManager(entityManagerFactory);
 	}
 }
