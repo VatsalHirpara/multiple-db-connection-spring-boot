@@ -59,7 +59,7 @@ public class CSVUtil {
 		vehiclePricing.setColor(csvRecord.get("Color"));
 		vehiclePricing.setDescription(csvRecord.get("Description"));
 		vehiclePricing.setVariantCode(csvRecord.get("Variant Code"));
-		vehiclePricing.setTenor(csvRecord.get("Tenor"));
+		vehiclePricing.setTenor(Long.parseLong(csvRecord.get("Tenor")));
 		vehiclePricing.setUniqueCode(csvRecord.get("Unique Code"));
 		vehiclePricing.setMonthlyRentalPreGST(Integer.parseInt(csvRecord.get("Monthly Rental Pre-GST")) );
 		vehiclePricing.setMonthlyRentalGST(Integer.parseInt(csvRecord.get("Monthly Rental GST")));

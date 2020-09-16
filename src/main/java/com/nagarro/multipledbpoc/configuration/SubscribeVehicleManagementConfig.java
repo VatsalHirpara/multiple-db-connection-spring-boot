@@ -19,30 +19,30 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(entityManagerFactoryRef = "vehiclePricingEntityManagerFactory", transactionManagerRef = "vehiclePricingTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.vehiclepricing" })
-public class VehiclePricingConfig {
-	@Bean(name = "vehiclePricingDataSource")
-	@ConfigurationProperties(prefix = "spring.vehiclepricing.datasource")
+@EnableJpaRepositories(entityManagerFactoryRef = "subscribeVehicleManagementEntityManagerFactory", transactionManagerRef = "subscribeVehicleManagementTransactionManager", basePackages = {
+		"com.nagarro.multipledbpoc.repository.subscribevehiclemanagement" })
+public class SubscribeVehicleManagementConfig {
+
+	@Bean(name = "subscribeVehicleManagementDataSource")
+	@ConfigurationProperties(prefix = "spring.subscribevehiclemanagement.datasource")
 	public DataSource dataSource() {
 		return DataSourceBuilder.create().build();
 	}
 
-	@Bean(name = "vehiclePricingEntityManagerFactory")
+	@Bean(name = "subscribeVehicleManagementEntityManagerFactory")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder,
-			@Qualifier("vehiclePricingDataSource") DataSource dataSource) {
+			@Qualifier("subscribeVehicleManagementDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
-		properties.put("hibernate.hbm2ddl.auto", "update");
+		properties.put("hibernate.hbm2ddl.auto", "none");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
-		return builder.dataSource(dataSource).properties(properties)
-				.packages("com.nagarro.multipledbpoc.domain.vehiclepricing").persistenceUnit("VehiclePricing").build();
+		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.category")
+				.persistenceUnit("CategoryMaster").build();
 	}
 
-	@Bean(name = "vehiclePricingTransactionManager")
+	@Bean(name = "subscribeVehicleManagementTransactionManager")
 	public PlatformTransactionManager transactionManager(
-			@Qualifier("vehiclePricingEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
+			@Qualifier("subscribeVehicleManagementEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
 		return new JpaTransactionManager(entityManagerFactory);
 	}
-
 }

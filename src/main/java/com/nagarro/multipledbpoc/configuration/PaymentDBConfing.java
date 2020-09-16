@@ -11,42 +11,38 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(entityManagerFactoryRef = "customerEntityManagerFactory", transactionManagerRef = "customerTransactionManager", basePackages = {
-		"com.nagarro.multipledbpoc.repository.customer" })
-public class CustomerDBConfig {
+@EnableJpaRepositories(entityManagerFactoryRef = "paymentEntityManagerFactory", transactionManagerRef = "paymentTransactionManager", basePackages = {
+		"com.nagarro.multipledbpoc.repository.payment" })
+public class PaymentDBConfing {
 
-	@Primary
-	@Bean(name = "customerDataSource")
-	@ConfigurationProperties(prefix = "spring.customer.datasource")
+	@Bean(name = "paymentDataSource")
+	@ConfigurationProperties(prefix = "spring.payment.datasource")
 	public DataSource dataSource() {
 		return DataSourceBuilder.create().build();
 	}
 
-	@Primary
-	@Bean(name = "customerEntityManagerFactory")
+	@Bean(name = "paymentEntityManagerFactory")
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder,
-			@Qualifier("customerDataSource") DataSource dataSource) {
+			@Qualifier("paymentDataSource") DataSource dataSource) {
 
 		HashMap<String, Object> properties = new HashMap<>();
-		properties.put("hibernate.hbm2ddl.auto", "update");
+		properties.put("hibernate.hbm2ddl.auto", "none");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
-		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.customer")
-				.persistenceUnit("Customer").build();
+		return builder.dataSource(dataSource).properties(properties).packages("com.nagarro.multipledbpoc.domain.payment")
+				.persistenceUnit("CategoryModel").build();
 	}
-
-	@Primary
-	@Bean(name = "customerTransactionManager")
+	@Bean(name = "paymentTransactionManager")
 	public PlatformTransactionManager transactionManager(
-			@Qualifier("customerEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
+			@Qualifier("paymentEntityManagerFactory") EntityManagerFactory entityManagerFactory) {
 		return new JpaTransactionManager(entityManagerFactory);
 	}
 }

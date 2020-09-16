@@ -4,6 +4,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 public interface CSVService {
 
-	void save(MultipartFile file);
+	void generateSQLInsertStatementsForCategoryModels(MultipartFile file);
+
+	void generateSQLInsertStatementsForDmsPriceMapping(MultipartFile file);
 
 }
