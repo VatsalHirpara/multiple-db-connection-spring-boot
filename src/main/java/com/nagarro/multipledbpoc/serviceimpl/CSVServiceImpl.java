@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -40,6 +41,8 @@ public class CSVServiceImpl implements CSVService {
 	@Value("${spring.profiles.active}")
 	private String activeProfile;
 
+	private static Logger log = Logger.getLogger(CSVServiceImpl.class);
+
 	private HashMap<String, String> cityIdHashMap = new HashMap<>();
 
 	private HashMap<String, String> categoryIdHashMap = new HashMap<>();
@@ -59,52 +62,35 @@ public class CSVServiceImpl implements CSVService {
 	private void generateSQLInsertStatementsForCategoryModels(List<VehiclePricing> vehiclePricings) throws IOException {
 
 		for (VehiclePricing vehiclePricing : vehiclePricings) {
-			String category_id = null;
+			String category_id = "";
 			try {
 				category_id = getCategoryId(vehiclePricing.getCategoryName().trim());
 			} catch (CategoryIdNotFoundException e) {
 				e.printStackTrace();
 			}
 
-			String city_id = null;
+			String city_id = "";
 			try {
 				city_id = getCityId(vehiclePricing.getCity().trim());
 			} catch (CityIdNotFoundException e) {
 				e.printStackTrace();
 			}
+			
+			if (!category_id.isEmpty() && !city_id.isEmpty() && !category_id.equals("null") && !city_id.equals("null")) {
+				String model_cd = vehiclePricing.getVariantCode().trim().substring(0, 2);
+				String variant_cd = vehiclePricing.getVariantCode().trim();
+				long tenure_id = vehiclePricing.getTenor();
+				String color_type = vehiclePricing.getColor().trim();
+				String unique_code = vehiclePricing.getUniqueCode().trim();
 
-			String model_cd = vehiclePricing.getVariantCode().trim().substring(0, 2);
-			String variant_cd = vehiclePricing.getVariantCode().trim();
-			long tenure_id = vehiclePricing.getTenor();
-			String color_type = vehiclePricing.getColor().trim();
-			String unique_code = vehiclePricing.getUniqueCode().trim();
-
-			String insertQuery = QueryUtil.getInsertQueryForCategoryModels(category_id, model_cd, variant_cd, city_id,
-					tenure_id, color_type, unique_code);
-			WriteIntoTextFile.writeString(FilePath.PAYMENT.getCategoryModels(), insertQuery);
+				String insertQuery = QueryUtil.getInsertQueryForCategoryModels(category_id, model_cd, variant_cd,
+						city_id, tenure_id, color_type, unique_code);
+				WriteIntoTextFile.writeString(FilePath.PAYMENT.getCategoryModels(), insertQuery);
+			} else {
+				System.out.println("skipping current record:  " + vehiclePricing);
+				log.error("skipping current record =>> " + vehiclePricing);
+			}
 		}
-	}
-
-	private String getCategoryId(String categoryName) throws CategoryIdNotFoundException {
-		String category_id;
-		if (categoryIdHashMap.containsKey(categoryName)) {
-			category_id = categoryIdHashMap.get(categoryName);
-		} else {
-			category_id = String.valueOf(categoryMasterRepository.findIdByName(categoryName));
-			categoryIdHashMap.put(categoryName, category_id.trim());
-		}
-		return category_id;
-	}
-
-	private String getCityId(String cityName) throws CityIdNotFoundException {
-		String city_id;
-		if (cityIdHashMap.containsKey(cityName)) {
-			city_id = cityIdHashMap.get(cityName);
-		} else {
-			city_id = String.valueOf(cityRepository.findIdByName(cityName));
-			cityIdHashMap.put(cityName, city_id);
-		}
-		return city_id;
 	}
 
 	@Override
@@ -163,4 +149,25 @@ public class CSVServiceImpl implements CSVService {
 		}
 	}
 
+	private String getCategoryId(String categoryName) throws CategoryIdNotFoundException {
+		String category_id;
+		if (categoryIdHashMap.containsKey(categoryName)) {
+			category_id = categoryIdHashMap.get(categoryName);
+		} else {
+			category_id = String.valueOf(categoryMasterRepository.findIdByName(categoryName));
+			categoryIdHashMap.put(categoryName, category_id.trim());
+		}
+		return category_id;
+	}
+
+	private String getCityId(String cityName) throws CityIdNotFoundException {
+		String city_id;
+		if (cityIdHashMap.containsKey(cityName)) {
+			city_id = cityIdHashMap.get(cityName);
+		} else {
+			city_id = String.valueOf(cityRepository.findIdByName(cityName));
+			cityIdHashMap.put(cityName, city_id);
+		}
+		return city_id;
+	}
 }
