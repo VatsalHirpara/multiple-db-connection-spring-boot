@@ -1,0 +1,940 @@
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 12,'M', 'GurugramCat2L1BAA4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 18,'M', 'GurugramCat2L1BAA4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 24,'M', 'GurugramCat2L1BAA4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 30,'M', 'GurugramCat2L1BAA4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 36,'M', 'GurugramCat2L1BAA4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 42,'M', 'GurugramCat2L1BAA4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 48,'M', 'GurugramCat2L1BAA4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 12,'M', 'GurugramCat2L1BAR4CL500M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 12,'M', 'GurugramCat2L1BAA4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 18,'M', 'GurugramCat2L1BAA4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 24,'M', 'GurugramCat2L1BAA4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 30,'M', 'GurugramCat2L1BAA4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 36,'M', 'GurugramCat2L1BAA4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 42,'M', 'GurugramCat2L1BAA4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 6, 48,'M', 'GurugramCat2L1BAA4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 12,'M', 'GurugramCat2L1BAR4CL500M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 18,'M', 'GurugramCat2L1BAR4CL500M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 24,'M', 'GurugramCat2L1BAR4CL500M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 30,'M', 'GurugramCat2L1BAR4CL500M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 36,'M', 'GurugramCat2L1BAR4CL500M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 42,'M', 'GurugramCat2L1BAR4CL500M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 6, 48,'M', 'GurugramCat2L1BAR4CL500M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 12,'M', 'GurugramCat2L1BAR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 18,'M', 'GurugramCat2L1BAR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 24,'M', 'GurugramCat2L1BAR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 30,'M', 'GurugramCat2L1BAR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 36,'M', 'GurugramCat2L1BAR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 42,'M', 'GurugramCat2L1BAR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 6, 48,'M', 'GurugramCat2L1BAR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 12,'M', 'GurugramCat2L1BAR4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 18,'M', 'GurugramCat2L1BAR4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 24,'M', 'GurugramCat2L1BAR4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 30,'M', 'GurugramCat2L1BAR4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 36,'M', 'GurugramCat2L1BAR4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 42,'M', 'GurugramCat2L1BAR4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 6, 48,'M', 'GurugramCat2L1BAR4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 12,'M', 'GurugramCat2L1VBA4AZA00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 18,'M', 'GurugramCat2L1VBA4AZA00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 24,'M', 'GurugramCat2L1VBA4AZA00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 30,'M', 'GurugramCat2L1VBA4AZA00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 36,'M', 'GurugramCat2L1VBA4AZA00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 42,'M', 'GurugramCat2L1VBA4AZA00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 6, 48,'M', 'GurugramCat2L1VBA4AZA00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 12,'M', 'GurugramCat2L1VBR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 18,'M', 'GurugramCat2L1VBR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 24,'M', 'GurugramCat2L1VBR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 30,'M', 'GurugramCat2L1VBR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 36,'M', 'GurugramCat2L1VBR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 42,'M', 'GurugramCat2L1VBR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 6, 48,'M', 'GurugramCat2L1VBR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 12,'DT', 'GurugramCat2L1VBR4BZ200DT12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 18,'DT', 'GurugramCat2L1VBR4BZ200DT18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 24,'DT', 'GurugramCat2L1VBR4BZ200DT24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 30,'DT', 'GurugramCat2L1VBR4BZ200DT30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 36,'DT', 'GurugramCat2L1VBR4BZ200DT36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 42,'DT', 'GurugramCat2L1VBR4BZ200DT42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 48,'DT', 'GurugramCat2L1VBR4BZ200DT48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 12,'M', 'GurugramCat2L1VBR4BZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 18,'M', 'GurugramCat2L1VBR4BZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 24,'M', 'GurugramCat2L1VBR4BZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 30,'M', 'GurugramCat2L1VBR4BZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 36,'M', 'GurugramCat2L1VBR4BZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 42,'M', 'GurugramCat2L1VBR4BZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 6, 48,'M', 'GurugramCat2L1VBR4BZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 12,'M', 'GurugramCat2L1CIA4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 18,'M', 'GurugramCat2L1CIA4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 24,'M', 'GurugramCat2L1CIA4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 30,'M', 'GurugramCat2L1CIA4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 36,'M', 'GurugramCat2L1CIA4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 42,'M', 'GurugramCat2L1CIA4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 6, 48,'M', 'GurugramCat2L1CIA4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 12,'M', 'GurugramCat2L1CIR4EV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 18,'M', 'GurugramCat2L1CIR4EV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 24,'M', 'GurugramCat2L1CIR4EV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 30,'M', 'GurugramCat2L1CIR4EV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 36,'M', 'GurugramCat2L1CIR4EV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 42,'M', 'GurugramCat2L1CIR4EV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 6, 48,'M', 'GurugramCat2L1CIR4EV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 12,'M', 'GurugramCat2L1CIR4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 18,'M', 'GurugramCat2L1CIR4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 24,'M', 'GurugramCat2L1CIR4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 30,'M', 'GurugramCat2L1CIR4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 36,'M', 'GurugramCat2L1CIR4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 42,'M', 'GurugramCat2L1CIR4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 6, 48,'M', 'GurugramCat2L1CIR4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 12,'M', 'GurugramCat2L1DRR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 18,'M', 'GurugramCat2L1DRR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 24,'M', 'GurugramCat2L1DRR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 30,'M', 'GurugramCat2L1DRR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 36,'M', 'GurugramCat2L1DRR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 42,'M', 'GurugramCat2L1DRR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 6, 48,'M', 'GurugramCat2L1DRR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 12,'M', 'GurugramCat2L1DRR4DZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 18,'M', 'GurugramCat2L1DRR4DZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 24,'M', 'GurugramCat2L1DRR4DZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 30,'M', 'GurugramCat2L1DRR4DZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 36,'M', 'GurugramCat2L1DRR4DZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 42,'M', 'GurugramCat2L1DRR4DZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 6, 48,'M', 'GurugramCat2L1DRR4DZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 12,'M', 'GurugramCat2L1ERA4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 18,'M', 'GurugramCat2L1ERA4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 24,'M', 'GurugramCat2L1ERA4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 30,'M', 'GurugramCat2L1ERA4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 36,'M', 'GurugramCat2L1ERA4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 42,'M', 'GurugramCat2L1ERA4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 6, 48,'M', 'GurugramCat2L1ERA4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 12,'M', 'GurugramCat2L1ERR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 18,'M', 'GurugramCat2L1ERR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 24,'M', 'GurugramCat2L1ERR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 30,'M', 'GurugramCat2L1ERR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 36,'M', 'GurugramCat2L1ERR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 42,'M', 'GurugramCat2L1ERR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 6, 48,'M', 'GurugramCat2L1ERR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 12,'M', 'GurugramCat2L1ERR4BZB00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 18,'M', 'GurugramCat2L1ERR4BZB00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 24,'M', 'GurugramCat2L1ERR4BZB00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 30,'M', 'GurugramCat2L1ERR4BZB00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 36,'M', 'GurugramCat2L1ERR4BZB00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 42,'M', 'GurugramCat2L1ERR4BZB00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 6, 48,'M', 'GurugramCat2L1ERR4BZB00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 12,'M', 'GurugramCat2L1SRR4BL100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 18,'M', 'GurugramCat2L1SRR4BL100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 24,'M', 'GurugramCat2L1SRR4BL100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 30,'M', 'GurugramCat2L1SRR4BL100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 36,'M', 'GurugramCat2L1SRR4BL100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 42,'M', 'GurugramCat2L1SRR4BL100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 6, 48,'M', 'GurugramCat2L1SRR4BL100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 12,'M', 'GurugramCat2L1SRR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 18,'M', 'GurugramCat2L1SRR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 24,'M', 'GurugramCat2L1SRR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 30,'M', 'GurugramCat2L1SRR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 36,'M', 'GurugramCat2L1SRR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 42,'M', 'GurugramCat2L1SRR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 6, 48,'M', 'GurugramCat2L1SRR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 12,'M', 'GurugramCat2L1SRR4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 18,'M', 'GurugramCat2L1SRR4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 24,'M', 'GurugramCat2L1SRR4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 30,'M', 'GurugramCat2L1SRR4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 36,'M', 'GurugramCat2L1SRR4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 42,'M', 'GurugramCat2L1SRR4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 6, 48,'M', 'GurugramCat2L1SRR4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 12,'M', 'GurugramCat2L1XLA4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 18,'M', 'GurugramCat2L1XLA4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 24,'M', 'GurugramCat2L1XLA4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 30,'M', 'GurugramCat2L1XLA4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 36,'M', 'GurugramCat2L1XLA4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 42,'M', 'GurugramCat2L1XLA4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 6, 48,'M', 'GurugramCat2L1XLA4AZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 12,'M', 'GurugramCat2L1XLR4AZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 18,'M', 'GurugramCat2L1XLR4AZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 24,'M', 'GurugramCat2L1XLR4AZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 30,'M', 'GurugramCat2L1XLR4AZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 36,'M', 'GurugramCat2L1XLR4AZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 42,'M', 'GurugramCat2L1XLR4AZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 6, 48,'M', 'GurugramCat2L1XLR4AZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 12,'M', 'GurugramCat2L1XLR4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 18,'M', 'GurugramCat2L1XLR4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 24,'M', 'GurugramCat2L1XLR4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 30,'M', 'GurugramCat2L1XLR4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 36,'M', 'GurugramCat2L1XLR4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 42,'M', 'GurugramCat2L1XLR4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 6, 48,'M', 'GurugramCat2L1XLR4AZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 12,'M', 'BengaluruCat2L1BAA4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 18,'M', 'BengaluruCat2L1BAA4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 24,'M', 'BengaluruCat2L1BAA4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 30,'M', 'BengaluruCat2L1BAA4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 36,'M', 'BengaluruCat2L1BAA4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 42,'M', 'BengaluruCat2L1BAA4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 1, 48,'M', 'BengaluruCat2L1BAA4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 12,'M', 'BengaluruCat2L1BAR4CL500M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 18,'M', 'BengaluruCat2L1BAR4CL500M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 24,'M', 'BengaluruCat2L1BAR4CL500M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 30,'M', 'BengaluruCat2L1BAR4CL500M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 36,'M', 'BengaluruCat2L1BAR4CL500M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 42,'M', 'BengaluruCat2L1BAR4CL500M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 1, 48,'M', 'BengaluruCat2L1BAR4CL500M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 12,'M', 'BengaluruCat2L1BAR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 18,'M', 'BengaluruCat2L1BAR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 24,'M', 'BengaluruCat2L1BAR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 30,'M', 'BengaluruCat2L1BAR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 36,'M', 'BengaluruCat2L1BAR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 42,'M', 'BengaluruCat2L1BAR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 1, 48,'M', 'BengaluruCat2L1BAR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 12,'M', 'BengaluruCat2L1BAR4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 18,'M', 'BengaluruCat2L1BAR4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 24,'M', 'BengaluruCat2L1BAR4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 30,'M', 'BengaluruCat2L1BAR4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 36,'M', 'BengaluruCat2L1BAR4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 42,'M', 'BengaluruCat2L1BAR4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 1, 48,'M', 'BengaluruCat2L1BAR4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 12,'M', 'BengaluruCat2L1VBA4AZA00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 18,'M', 'BengaluruCat2L1VBA4AZA00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 24,'M', 'BengaluruCat2L1VBA4AZA00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 30,'M', 'BengaluruCat2L1VBA4AZA00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 36,'M', 'BengaluruCat2L1VBA4AZA00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 42,'M', 'BengaluruCat2L1VBA4AZA00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 1, 48,'M', 'BengaluruCat2L1VBA4AZA00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 12,'M', 'BengaluruCat2L1VBR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 18,'M', 'BengaluruCat2L1VBR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 24,'M', 'BengaluruCat2L1VBR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 30,'M', 'BengaluruCat2L1VBR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 36,'M', 'BengaluruCat2L1VBR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 42,'M', 'BengaluruCat2L1VBR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 1, 48,'M', 'BengaluruCat2L1VBR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 12,'DT', 'BengaluruCat2L1VBR4BZ200DT12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 18,'DT', 'BengaluruCat2L1VBR4BZ200DT18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 24,'DT', 'BengaluruCat2L1VBR4BZ200DT24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 30,'DT', 'BengaluruCat2L1VBR4BZ200DT30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 36,'DT', 'BengaluruCat2L1VBR4BZ200DT36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 42,'DT', 'BengaluruCat2L1VBR4BZ200DT42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 48,'DT', 'BengaluruCat2L1VBR4BZ200DT48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 12,'M', 'BengaluruCat2L1VBR4BZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 18,'M', 'BengaluruCat2L1VBR4BZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 24,'M', 'BengaluruCat2L1VBR4BZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 30,'M', 'BengaluruCat2L1VBR4BZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 36,'M', 'BengaluruCat2L1VBR4BZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 42,'M', 'BengaluruCat2L1VBR4BZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 1, 48,'M', 'BengaluruCat2L1VBR4BZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 12,'M', 'BengaluruCat2L1CIA4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 18,'M', 'BengaluruCat2L1CIA4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 24,'M', 'BengaluruCat2L1CIA4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 30,'M', 'BengaluruCat2L1CIA4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 36,'M', 'BengaluruCat2L1CIA4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 42,'M', 'BengaluruCat2L1CIA4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 1, 48,'M', 'BengaluruCat2L1CIA4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 12,'M', 'BengaluruCat2L1CIR4EV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 18,'M', 'BengaluruCat2L1CIR4EV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 24,'M', 'BengaluruCat2L1CIR4EV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 30,'M', 'BengaluruCat2L1CIR4EV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 36,'M', 'BengaluruCat2L1CIR4EV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 42,'M', 'BengaluruCat2L1CIR4EV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 1, 48,'M', 'BengaluruCat2L1CIR4EV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 12,'M', 'BengaluruCat2L1CIR4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 18,'M', 'BengaluruCat2L1CIR4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 24,'M', 'BengaluruCat2L1CIR4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 30,'M', 'BengaluruCat2L1CIR4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 36,'M', 'BengaluruCat2L1CIR4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 42,'M', 'BengaluruCat2L1CIR4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 1, 48,'M', 'BengaluruCat2L1CIR4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 12,'M', 'BengaluruCat2L1DRR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 18,'M', 'BengaluruCat2L1DRR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 24,'M', 'BengaluruCat2L1DRR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 30,'M', 'BengaluruCat2L1DRR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 36,'M', 'BengaluruCat2L1DRR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 42,'M', 'BengaluruCat2L1DRR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 1, 48,'M', 'BengaluruCat2L1DRR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 12,'M', 'BengaluruCat2L1DRR4DZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 18,'M', 'BengaluruCat2L1DRR4DZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 24,'M', 'BengaluruCat2L1DRR4DZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 30,'M', 'BengaluruCat2L1DRR4DZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 36,'M', 'BengaluruCat2L1DRR4DZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 42,'M', 'BengaluruCat2L1DRR4DZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 1, 48,'M', 'BengaluruCat2L1DRR4DZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 12,'M', 'BengaluruCat2L1ERA4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 18,'M', 'BengaluruCat2L1ERA4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 24,'M', 'BengaluruCat2L1ERA4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 30,'M', 'BengaluruCat2L1ERA4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 36,'M', 'BengaluruCat2L1ERA4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 42,'M', 'BengaluruCat2L1ERA4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 1, 48,'M', 'BengaluruCat2L1ERA4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 12,'M', 'BengaluruCat2L1ERR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 18,'M', 'BengaluruCat2L1ERR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 24,'M', 'BengaluruCat2L1ERR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 30,'M', 'BengaluruCat2L1ERR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 36,'M', 'BengaluruCat2L1ERR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 42,'M', 'BengaluruCat2L1ERR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 1, 48,'M', 'BengaluruCat2L1ERR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 12,'M', 'BengaluruCat2L1ERR4BZB00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 18,'M', 'BengaluruCat2L1ERR4BZB00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 24,'M', 'BengaluruCat2L1ERR4BZB00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 30,'M', 'BengaluruCat2L1ERR4BZB00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 36,'M', 'BengaluruCat2L1ERR4BZB00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 42,'M', 'BengaluruCat2L1ERR4BZB00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 1, 48,'M', 'BengaluruCat2L1ERR4BZB00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 12,'M', 'BengaluruCat2L1SRR4BL100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 18,'M', 'BengaluruCat2L1SRR4BL100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 24,'M', 'BengaluruCat2L1SRR4BL100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 30,'M', 'BengaluruCat2L1SRR4BL100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 36,'M', 'BengaluruCat2L1SRR4BL100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 42,'M', 'BengaluruCat2L1SRR4BL100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 1, 48,'M', 'BengaluruCat2L1SRR4BL100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 12,'M', 'BengaluruCat2L1SRR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 18,'M', 'BengaluruCat2L1SRR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 24,'M', 'BengaluruCat2L1SRR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 30,'M', 'BengaluruCat2L1SRR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 36,'M', 'BengaluruCat2L1SRR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 42,'M', 'BengaluruCat2L1SRR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 1, 48,'M', 'BengaluruCat2L1SRR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 12,'M', 'BengaluruCat2L1SRR4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 18,'M', 'BengaluruCat2L1SRR4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 24,'M', 'BengaluruCat2L1SRR4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 30,'M', 'BengaluruCat2L1SRR4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 36,'M', 'BengaluruCat2L1SRR4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 42,'M', 'BengaluruCat2L1SRR4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 1, 48,'M', 'BengaluruCat2L1SRR4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 12,'M', 'BengaluruCat2L1XLA4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 18,'M', 'BengaluruCat2L1XLA4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 24,'M', 'BengaluruCat2L1XLA4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 30,'M', 'BengaluruCat2L1XLA4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 36,'M', 'BengaluruCat2L1XLA4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 42,'M', 'BengaluruCat2L1XLA4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 1, 48,'M', 'BengaluruCat2L1XLA4AZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 12,'M', 'BengaluruCat2L1XLR4AZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 18,'M', 'BengaluruCat2L1XLR4AZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 24,'M', 'BengaluruCat2L1XLR4AZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 30,'M', 'BengaluruCat2L1XLR4AZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 36,'M', 'BengaluruCat2L1XLR4AZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 42,'M', 'BengaluruCat2L1XLR4AZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 1, 48,'M', 'BengaluruCat2L1XLR4AZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 12,'M', 'BengaluruCat2L1XLR4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 18,'M', 'BengaluruCat2L1XLR4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 24,'M', 'BengaluruCat2L1XLR4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 30,'M', 'BengaluruCat2L1XLR4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 36,'M', 'BengaluruCat2L1XLR4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 42,'M', 'BengaluruCat2L1XLR4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 1, 48,'M', 'BengaluruCat2L1XLR4AZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 12,'M', 'FaridabadCat2L1BAA4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 18,'M', 'FaridabadCat2L1BAA4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 24,'M', 'FaridabadCat2L1BAA4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 30,'M', 'FaridabadCat2L1BAA4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 36,'M', 'FaridabadCat2L1BAA4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 42,'M', 'FaridabadCat2L1BAA4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAA4CZ100', 7, 48,'M', 'FaridabadCat2L1BAA4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 12,'M', 'FaridabadCat2L1BAR4CL500M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 18,'M', 'FaridabadCat2L1BAR4CL500M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 24,'M', 'FaridabadCat2L1BAR4CL500M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 30,'M', 'FaridabadCat2L1BAR4CL500M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 36,'M', 'FaridabadCat2L1BAR4CL500M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 42,'M', 'FaridabadCat2L1BAR4CL500M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CL500', 7, 48,'M', 'FaridabadCat2L1BAR4CL500M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 12,'M', 'FaridabadCat2L1BAR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 18,'M', 'FaridabadCat2L1BAR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 24,'M', 'FaridabadCat2L1BAR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 30,'M', 'FaridabadCat2L1BAR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 36,'M', 'FaridabadCat2L1BAR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 42,'M', 'FaridabadCat2L1BAR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CV100', 7, 48,'M', 'FaridabadCat2L1BAR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 12,'M', 'FaridabadCat2L1BAR4CZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 18,'M', 'FaridabadCat2L1BAR4CZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 24,'M', 'FaridabadCat2L1BAR4CZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 30,'M', 'FaridabadCat2L1BAR4CZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 36,'M', 'FaridabadCat2L1BAR4CZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 42,'M', 'FaridabadCat2L1BAR4CZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'BA', 'BAR4CZ100', 7, 48,'M', 'FaridabadCat2L1BAR4CZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 12,'M', 'FaridabadCat2L1VBA4AZA00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 18,'M', 'FaridabadCat2L1VBA4AZA00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 24,'M', 'FaridabadCat2L1VBA4AZA00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 30,'M', 'FaridabadCat2L1VBA4AZA00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 36,'M', 'FaridabadCat2L1VBA4AZA00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 42,'M', 'FaridabadCat2L1VBA4AZA00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBA4AZA00', 7, 48,'M', 'FaridabadCat2L1VBA4AZA00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 12,'M', 'FaridabadCat2L1VBR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 18,'M', 'FaridabadCat2L1VBR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 24,'M', 'FaridabadCat2L1VBR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 30,'M', 'FaridabadCat2L1VBR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 36,'M', 'FaridabadCat2L1VBR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 42,'M', 'FaridabadCat2L1VBR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BV100', 7, 48,'M', 'FaridabadCat2L1VBR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 12,'DT', 'FaridabadCat2L1VBR4BZ200DT12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 18,'DT', 'FaridabadCat2L1VBR4BZ200DT18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 24,'DT', 'FaridabadCat2L1VBR4BZ200DT24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 30,'DT', 'FaridabadCat2L1VBR4BZ200DT30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 36,'DT', 'FaridabadCat2L1VBR4BZ200DT36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 42,'DT', 'FaridabadCat2L1VBR4BZ200DT42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 48,'DT', 'FaridabadCat2L1VBR4BZ200DT48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 12,'M', 'FaridabadCat2L1VBR4BZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 18,'M', 'FaridabadCat2L1VBR4BZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 24,'M', 'FaridabadCat2L1VBR4BZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 30,'M', 'FaridabadCat2L1VBR4BZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 36,'M', 'FaridabadCat2L1VBR4BZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 42,'M', 'FaridabadCat2L1VBR4BZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'VB', 'VBR4BZ200', 7, 48,'M', 'FaridabadCat2L1VBR4BZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 12,'M', 'FaridabadCat2L1CIA4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 18,'M', 'FaridabadCat2L1CIA4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 24,'M', 'FaridabadCat2L1CIA4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 30,'M', 'FaridabadCat2L1CIA4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 36,'M', 'FaridabadCat2L1CIA4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 42,'M', 'FaridabadCat2L1CIA4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIA4EZ200', 7, 48,'M', 'FaridabadCat2L1CIA4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 12,'M', 'FaridabadCat2L1CIR4EV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 18,'M', 'FaridabadCat2L1CIR4EV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 24,'M', 'FaridabadCat2L1CIR4EV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 30,'M', 'FaridabadCat2L1CIR4EV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 36,'M', 'FaridabadCat2L1CIR4EV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 42,'M', 'FaridabadCat2L1CIR4EV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EV100', 7, 48,'M', 'FaridabadCat2L1CIR4EV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 12,'M', 'FaridabadCat2L1CIR4EZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 18,'M', 'FaridabadCat2L1CIR4EZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 24,'M', 'FaridabadCat2L1CIR4EZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 30,'M', 'FaridabadCat2L1CIR4EZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 36,'M', 'FaridabadCat2L1CIR4EZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 42,'M', 'FaridabadCat2L1CIR4EZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'CI', 'CIR4EZ200', 7, 48,'M', 'FaridabadCat2L1CIR4EZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 12,'M', 'FaridabadCat2L1DRR4CV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 18,'M', 'FaridabadCat2L1DRR4CV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 24,'M', 'FaridabadCat2L1DRR4CV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 30,'M', 'FaridabadCat2L1DRR4CV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 36,'M', 'FaridabadCat2L1DRR4CV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 42,'M', 'FaridabadCat2L1DRR4CV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4CV100', 7, 48,'M', 'FaridabadCat2L1DRR4CV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 12,'M', 'FaridabadCat2L1DRR4DZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 18,'M', 'FaridabadCat2L1DRR4DZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 24,'M', 'FaridabadCat2L1DRR4DZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 30,'M', 'FaridabadCat2L1DRR4DZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 36,'M', 'FaridabadCat2L1DRR4DZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 42,'M', 'FaridabadCat2L1DRR4DZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'DR', 'DRR4DZ100', 7, 48,'M', 'FaridabadCat2L1DRR4DZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 12,'M', 'FaridabadCat2L1ERA4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 18,'M', 'FaridabadCat2L1ERA4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 24,'M', 'FaridabadCat2L1ERA4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 30,'M', 'FaridabadCat2L1ERA4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 36,'M', 'FaridabadCat2L1ERA4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 42,'M', 'FaridabadCat2L1ERA4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERA4BZ100', 7, 48,'M', 'FaridabadCat2L1ERA4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 12,'M', 'FaridabadCat2L1ERR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 18,'M', 'FaridabadCat2L1ERR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 24,'M', 'FaridabadCat2L1ERR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 30,'M', 'FaridabadCat2L1ERR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 36,'M', 'FaridabadCat2L1ERR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 42,'M', 'FaridabadCat2L1ERR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BV100', 7, 48,'M', 'FaridabadCat2L1ERR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 12,'M', 'FaridabadCat2L1ERR4BZB00M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 18,'M', 'FaridabadCat2L1ERR4BZB00M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 24,'M', 'FaridabadCat2L1ERR4BZB00M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 30,'M', 'FaridabadCat2L1ERR4BZB00M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 36,'M', 'FaridabadCat2L1ERR4BZB00M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 42,'M', 'FaridabadCat2L1ERR4BZB00M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'ER', 'ERR4BZB00', 7, 48,'M', 'FaridabadCat2L1ERR4BZB00M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 12,'M', 'FaridabadCat2L1SRR4BL100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 18,'M', 'FaridabadCat2L1SRR4BL100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 24,'M', 'FaridabadCat2L1SRR4BL100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 30,'M', 'FaridabadCat2L1SRR4BL100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 36,'M', 'FaridabadCat2L1SRR4BL100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 42,'M', 'FaridabadCat2L1SRR4BL100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BL100', 7, 48,'M', 'FaridabadCat2L1SRR4BL100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 12,'M', 'FaridabadCat2L1SRR4BV100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 18,'M', 'FaridabadCat2L1SRR4BV100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 24,'M', 'FaridabadCat2L1SRR4BV100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 30,'M', 'FaridabadCat2L1SRR4BV100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 36,'M', 'FaridabadCat2L1SRR4BV100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 42,'M', 'FaridabadCat2L1SRR4BV100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BV100', 7, 48,'M', 'FaridabadCat2L1SRR4BV100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 12,'M', 'FaridabadCat2L1SRR4BZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 18,'M', 'FaridabadCat2L1SRR4BZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 24,'M', 'FaridabadCat2L1SRR4BZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 30,'M', 'FaridabadCat2L1SRR4BZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 36,'M', 'FaridabadCat2L1SRR4BZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 42,'M', 'FaridabadCat2L1SRR4BZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'SR', 'SRR4BZ100', 7, 48,'M', 'FaridabadCat2L1SRR4BZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 12,'M', 'FaridabadCat2L1XLA4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 18,'M', 'FaridabadCat2L1XLA4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 24,'M', 'FaridabadCat2L1XLA4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 30,'M', 'FaridabadCat2L1XLA4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 36,'M', 'FaridabadCat2L1XLA4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 42,'M', 'FaridabadCat2L1XLA4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLA4AZ200', 7, 48,'M', 'FaridabadCat2L1XLA4AZ200M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 12,'M', 'FaridabadCat2L1XLR4AZ100M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 18,'M', 'FaridabadCat2L1XLR4AZ100M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 24,'M', 'FaridabadCat2L1XLR4AZ100M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 30,'M', 'FaridabadCat2L1XLR4AZ100M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 36,'M', 'FaridabadCat2L1XLR4AZ100M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 42,'M', 'FaridabadCat2L1XLR4AZ100M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ100', 7, 48,'M', 'FaridabadCat2L1XLR4AZ100M48');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 12,'M', 'FaridabadCat2L1XLR4AZ200M12');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 18,'M', 'FaridabadCat2L1XLR4AZ200M18');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 24,'M', 'FaridabadCat2L1XLR4AZ200M24');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 30,'M', 'FaridabadCat2L1XLR4AZ200M30');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 36,'M', 'FaridabadCat2L1XLR4AZ200M36');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 42,'M', 'FaridabadCat2L1XLR4AZ200M42');
+
+INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES (4, 'XL', 'XLR4AZ200', 7, 48,'M', 'FaridabadCat2L1XLR4AZ200M48');
+

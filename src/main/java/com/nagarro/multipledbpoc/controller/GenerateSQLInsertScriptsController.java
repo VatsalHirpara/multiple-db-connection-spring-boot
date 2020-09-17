@@ -15,46 +15,44 @@ import com.nagarro.multipledbpoc.util.CSVUtil;
 public class GenerateSQLInsertScriptsController {
 
 	@Autowired
-	CSVService csvService;	
-	
+	CSVService csvService;
+
 	@PostMapping("/api/csv/generate-sql-insert-script-category-models")
-	public ResponseEntity<String> generateSQLInsertStatementsForCategoryModels(@RequestParam("file") MultipartFile file) {
+	public ResponseEntity<String> generateSQLInsertStatementsForCategoryModels(
+			@RequestParam("file") MultipartFile file) {
 		String message = "";
-		
-		if(CSVUtil.hasCSVFormat(file)) {
+
+		if (CSVUtil.hasCSVFormat(file)) {
 			try {
 				csvService.generateSQLInsertStatementsForCategoryModels(file);
 				message = "Successfully generated SQL INSERT statements";
 				return ResponseEntity.status(HttpStatus.OK).body(message);
-				
+
 			} catch (Exception e) {
-				message = "Could not upload the file: " + file.getOriginalFilename() + "!";
-				System.out.println(e.getMessage()+ e.getStackTrace() + e.getCause());
+				message = "Could not generate SQL file for : " + file.getOriginalFilename() + "!";
 				return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(message);
 			}
 		}
 		return null;
 	}
-	
+
 	@PostMapping("/api/csv/generate-sql-insert-script-dms-price-mapping")
-	public ResponseEntity<String> generateSQLInsertStatementsForDmsPriceMapping(@RequestParam("file") MultipartFile file) {
+	public ResponseEntity<String> generateSQLInsertStatementsForDmsPriceMapping(
+			@RequestParam("file") MultipartFile file) {
 		String message = "";
-		
-		if(CSVUtil.hasCSVFormat(file)) {
+
+		if (CSVUtil.hasCSVFormat(file)) {
 			try {
 				csvService.generateSQLInsertStatementsForDmsPriceMapping(file);
 				message = "Successfully generated SQL INSERT statements";
 				return ResponseEntity.status(HttpStatus.OK).body(message);
-				
+
 			} catch (Exception e) {
-//				message = "Could not upload the file: " + file.getOriginalFilename() + "!";
-//				System.out.println(e.getMessage()+ e.getStackTrace() + e.getCause());
-//				return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(message);
-				throw e;
+				message = "Could not generate SQL file for : " + file.getOriginalFilename() + "!";
+				return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(message);
 			}
 		}
 		return null;
 	}
-	
-	
+
 }

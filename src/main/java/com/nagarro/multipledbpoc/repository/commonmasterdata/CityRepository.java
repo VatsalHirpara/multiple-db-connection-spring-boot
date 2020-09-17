@@ -11,5 +11,5 @@ import com.nagarro.multipledbpoc.domain.commonmasterdata.City;
 public interface CityRepository extends JpaRepository<City, Long> {
 
 	@Query(value = "Select c.id from public.city c Where  c.name=:name", nativeQuery = true)
-	Integer findIdByName(@Param("name") String name);
+	Long findIdByName(@Param("name") String name);
 }

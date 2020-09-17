@@ -1,15 +1,8 @@
 package com.nagarro.multipledbpoc.serviceimpl;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -17,12 +10,17 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.nagarro.multipledbpoc.constants.FilePath;
 import com.nagarro.multipledbpoc.domain.vehiclepricing.VehiclePricing;
+import com.nagarro.multipledbpoc.exception.CategoryIdNotFoundException;
+import com.nagarro.multipledbpoc.exception.CityIdNotFoundException;
 import com.nagarro.multipledbpoc.repository.commonmasterdata.CityRepository;
 import com.nagarro.multipledbpoc.repository.payment.paymentRepository;
 import com.nagarro.multipledbpoc.repository.subscribevehiclemanagement.CategoryMasterRepository;
 import com.nagarro.multipledbpoc.service.CSVService;
 import com.nagarro.multipledbpoc.util.CSVUtil;
+import com.nagarro.multipledbpoc.util.QueryUtil;
+import com.nagarro.multipledbpoc.util.WriteIntoTextFile;
 
 @Service
 public class CSVServiceImpl implements CSVService {
@@ -42,9 +40,9 @@ public class CSVServiceImpl implements CSVService {
 	@Value("${spring.profiles.active}")
 	private String activeProfile;
 
-	private HashMap<String, Long> cityIdHashMap = new HashMap<>();
+	private HashMap<String, String> cityIdHashMap = new HashMap<>();
 
-	private HashMap<String, Long> categoryIdHashMap = new HashMap<>();
+	private HashMap<String, String> categoryIdHashMap = new HashMap<>();
 
 	@Override
 	public void generateSQLInsertStatementsForCategoryModels(MultipartFile file) {
@@ -60,29 +58,19 @@ public class CSVServiceImpl implements CSVService {
 
 	private void generateSQLInsertStatementsForCategoryModels(List<VehiclePricing> vehiclePricings) throws IOException {
 
-		LocalDateTime currentDateTime = LocalDateTime.now();
-		String dateString = currentDateTime.getDayOfMonth() + "_" + currentDateTime.getMonthValue() + "_"
-				+ currentDateTime.getYear() + "_" + currentDateTime.getHour() + "_" + currentDateTime.getMinute() + "_"
-				+ currentDateTime.getSecond();
-
-		File file = new File("insert_category_models_" + this.activeProfile + "_" + dateString + ".txt");
-		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-
 		for (VehiclePricing vehiclePricing : vehiclePricings) {
-			long category_id;
-			if (categoryIdHashMap.containsKey(vehiclePricing.getCategoryName().trim())) {
-				category_id = categoryIdHashMap.get(vehiclePricing.getCategoryName().trim());
-			} else {
-				category_id = categoryMasterRepository.findIdByName(vehiclePricing.getCategoryName().trim());
-				categoryIdHashMap.put(vehiclePricing.getCategoryName().trim(), category_id);
+			String category_id = null;
+			try {
+				category_id = getCategoryId(vehiclePricing.getCategoryName().trim());
+			} catch (CategoryIdNotFoundException e) {
+				e.printStackTrace();
 			}
 
-			long city_id;
-			if (cityIdHashMap.containsKey(vehiclePricing.getCity().trim())) {
-				city_id = cityIdHashMap.get(vehiclePricing.getCity().trim());
-			} else {
-				city_id = cityRepository.findIdByName(vehiclePricing.getCity().trim());
-				cityIdHashMap.put(vehiclePricing.getCity().trim(), city_id);
+			String city_id = null;
+			try {
+				city_id = getCityId(vehiclePricing.getCity().trim());
+			} catch (CityIdNotFoundException e) {
+				e.printStackTrace();
 			}
 
 			String model_cd = vehiclePricing.getVariantCode().trim().substring(0, 2);
@@ -91,12 +79,32 @@ public class CSVServiceImpl implements CSVService {
 			String color_type = vehiclePricing.getColor().trim();
 			String unique_code = vehiclePricing.getUniqueCode().trim();
 
-			String insertStatement = "INSERT INTO public.category_models(category_id, model_cd, variant_cd, city_id, tenure_id,color_type,unique_code) VALUES "
-					+ String.format("(%d, '%s', '%s', %d, %d,'%s', '%s');\n", category_id, model_cd, variant_cd,
-							city_id, tenure_id, color_type, unique_code);
-			writer.append(insertStatement);
+			String insertQuery = QueryUtil.getInsertQueryForCategoryModels(category_id, model_cd, variant_cd, city_id,
+					tenure_id, color_type, unique_code);
+			WriteIntoTextFile.writeString(FilePath.PAYMENT.getCategoryModels(), insertQuery);
 		}
-		writer.close();
+	}
+
+	private String getCategoryId(String categoryName) throws CategoryIdNotFoundException {
+		String category_id;
+		if (categoryIdHashMap.containsKey(categoryName)) {
+			category_id = categoryIdHashMap.get(categoryName);
+		} else {
+			category_id = String.valueOf(categoryMasterRepository.findIdByName(categoryName));
+			categoryIdHashMap.put(categoryName, category_id.trim());
+		}
+		return category_id;
+	}
+
+	private String getCityId(String cityName) throws CityIdNotFoundException {
+		String city_id;
+		if (cityIdHashMap.containsKey(cityName)) {
+			city_id = cityIdHashMap.get(cityName);
+		} else {
+			city_id = String.valueOf(cityRepository.findIdByName(cityName));
+			cityIdHashMap.put(cityName, city_id);
+		}
+		return city_id;
 	}
 
 	@Override
@@ -113,25 +121,8 @@ public class CSVServiceImpl implements CSVService {
 
 	private void generateSQLInsertStatementsForDmsPriceMapping(List<VehiclePricing> vehiclePricings)
 			throws IOException {
-		LocalDateTime currentDateTime = LocalDateTime.now();
-		String dateString = currentDateTime.getDayOfMonth() + "_" + currentDateTime.getMonthValue() + "_"
-				+ currentDateTime.getYear() + "_" + currentDateTime.getHour() + "_" + currentDateTime.getMinute() + "_"
-				+ currentDateTime.getSecond();
-
-		File file = new File("insert_dms_price_mapping" + this.activeProfile + "_" + dateString + ".txt");
-		FileWriter writer = new FileWriter(file);
-//		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
 
 		for (VehiclePricing vehiclePricing : vehiclePricings) {
-
-			long city_id;
-			if (cityIdHashMap.containsKey(vehiclePricing.getCity().trim())) {
-				city_id = cityIdHashMap.get(vehiclePricing.getCity().trim());
-			} else {
-				city_id = cityRepository.findIdByName(vehiclePricing.getCity().trim());
-				cityIdHashMap.put(vehiclePricing.getCity().trim(), city_id);
-			}
-
 			int monthly_pre_gst = vehiclePricing.getMonthlyRentalPreGST();
 			int monthly_gst = vehiclePricing.getMonthlyRentalGST();
 			int monthly_post_gst = vehiclePricing.getMonthlyRentalPostGST();
@@ -155,30 +146,21 @@ public class CSVServiceImpl implements CSVService {
 			int customer_payable_pre_gst = vehiclePricing.getCustomerNeedstoPayPreGST();
 			int customer_payable_gst = vehiclePricing.getCustomerNeedstoPayGST();
 			int customer_payable_post_gst = vehiclePricing.getCustomerNeedstoPayPostGST();
-
-			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yy", Locale.ENGLISH);
-
-			LocalDate valid_from = LocalDate.parse(vehiclePricing.getValidFrom(), formatter);
-			LocalDate valid_to = LocalDate.parse(vehiclePricing.getValidTo(), formatter);
 			String created_on = "now()";
 			String created_by = "admin";
 
-			String insertStatement = "INSERT INTO public.dms_price_mapping(monthly_pre_gst, monthly_gst, monthly_post_gst, discount_pre_gst, discount_gst, discount_post_gst, net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst, security_pre_gst, security_gst, security_post_gst, p_fee_pre_gst, p_fee_gst, p_fee_post_gst, customer_payable_pre_gst, customer_payable_gst, customer_payable_post_gst, valid_from, valid_to, created_on, created_by) VALUES "
-					+ "(" 
-					+ String.format(" %d, %d, %d,", monthly_pre_gst, monthly_gst, monthly_post_gst)
-					+ String.format(" %d, %d, %d,", discount_pre_gst, discount_gst, discount_post_gst)
-					+ String.format(" %d, %d, %d,", net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst)
-					+ String.format(" %d, %d, %d,", security_pre_gst, security_gst, security_post_gst)
-					+ String.format(" %d, %d, %d,", p_fee_pre_gst, p_fee_gst, p_fee_post_gst)
-					+ String.format(" %d, %d, %d,", customer_payable_pre_gst, customer_payable_gst,
-							customer_payable_post_gst)
-					+ String.format(" '%s', '%s', %s, '%s'", valid_from.toString(), valid_to.toString(), created_on,
-							created_by)
-					+ " );\n";
+			String valid_from = vehiclePricing.getValidFrom();
+			String valid_to = vehiclePricing.getValidTo();
 
-			writer.append(insertStatement);
-			writer.flush();
+			String insertStatement = QueryUtil.getInsertQueryForDmsPriceMapping(monthly_pre_gst, monthly_gst,
+					monthly_post_gst, discount_pre_gst, discount_gst, discount_post_gst, net_monthly_pre_gst,
+					net_monthly_gst, net_monthly_post_gst, security_pre_gst, security_gst, security_post_gst,
+					p_fee_pre_gst, p_fee_gst, p_fee_post_gst, customer_payable_pre_gst, customer_payable_gst,
+					customer_payable_post_gst, valid_from, valid_to, created_on, created_by);
+
+			WriteIntoTextFile.writeString(FilePath.PAYMENT.getDMSPriceMapping(), insertStatement);
+
 		}
-		writer.close();
 	}
+
 }
