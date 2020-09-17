@@ -18,7 +18,6 @@ public class CategoryModel{
 	
 	@Id
 	private long id;
-	private long  category_partner_id;
 	String model_cd;
 	String variant_cd;
 	long city_id;

@@ -10,8 +10,7 @@ import com.nagarro.multipledbpoc.domain.payment.CategoryModel;
 @Repository
 public interface paymentRepository extends JpaRepository<CategoryModel, Long> {
 
-	@Query(value = "Select cm.id from public.category_models AS cm WHERE (cm.category_partner_id=:category_partner_id AND cm.model_cd=:model_cd AND  cm.variant_cd=:variant_cd AND  cm.city_id=:city_id AND cm.tenure_id=:tenure_id AND cm.color_type=:color_type)", nativeQuery = true)
-	Integer findId(@Param("category_partner_id") long category_partner_id, @Param("model_cd") String model_cd,
-			@Param("variant_cd") String variant_cd, @Param("city_id") long city_id, @Param("tenure_id") long tenure_id,
-			@Param("color_type") String color_type);
+	@Query(value = "Select cm.id from public.category_models AS cm WHERE (cm.model_cd=:model_cd AND  cm.variant_cd=:variant_cd AND  cm.city_id=:city_id AND cm.tenure_id=:tenure_id AND cm.color_type=:color_type)", nativeQuery = true)
+	Integer findId(@Param("model_cd") String model_cd, @Param("variant_cd") String variant_cd,
+			@Param("city_id") long city_id, @Param("tenure_id") long tenure_id, @Param("color_type") String color_type);
 }

@@ -25,14 +25,14 @@ import com.nagarro.multipledbpoc.service.CSVService;
 import com.nagarro.multipledbpoc.util.CSVUtil;
 
 @Service
-public class CSVServiceImpl implements CSVService{
+public class CSVServiceImpl implements CSVService {
 
 	@Autowired
 	CityRepository cityRepository;
 
 	@Autowired
 	CategoryMasterRepository categoryMasterRepository;
-	
+
 	@Autowired
 	paymentRepository paymentRepository;
 
@@ -119,10 +119,11 @@ public class CSVServiceImpl implements CSVService{
 				+ currentDateTime.getSecond();
 
 		File file = new File("insert_dms_price_mapping" + this.activeProfile + "_" + dateString + ".txt");
-		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+		FileWriter writer = new FileWriter(file);
+//		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
 
 		for (VehiclePricing vehiclePricing : vehiclePricings) {
-			
+
 			long city_id;
 			if (cityIdHashMap.containsKey(vehiclePricing.getCity().trim())) {
 				city_id = cityIdHashMap.get(vehiclePricing.getCity().trim());
@@ -130,13 +131,6 @@ public class CSVServiceImpl implements CSVService{
 				city_id = cityRepository.findIdByName(vehiclePricing.getCity().trim());
 				cityIdHashMap.put(vehiclePricing.getCity().trim(), city_id);
 			}
-
-			long category_model_id = 
-					paymentRepository.findId(Long.parseLong("1"), vehiclePricing.getModel().trim().toUpperCase().substring(0, 2),
-							vehiclePricing.getVariantCode().trim(),
-							city_id,
-							vehiclePricing.getTenor(),
-							vehiclePricing.getColor().trim());
 
 			int monthly_pre_gst = vehiclePricing.getMonthlyRentalPreGST();
 			int monthly_gst = vehiclePricing.getMonthlyRentalGST();
@@ -162,27 +156,28 @@ public class CSVServiceImpl implements CSVService{
 			int customer_payable_gst = vehiclePricing.getCustomerNeedstoPayGST();
 			int customer_payable_post_gst = vehiclePricing.getCustomerNeedstoPayPostGST();
 
-			
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yy", Locale.ENGLISH);
-			
+
 			LocalDate valid_from = LocalDate.parse(vehiclePricing.getValidFrom(), formatter);
 			LocalDate valid_to = LocalDate.parse(vehiclePricing.getValidTo(), formatter);
 			String created_on = "now()";
 			String created_by = "admin";
-			
-			String insertStatement = "INSERT INTO public.dms_price_mapping(category_model_id, monthly_pre_gst, monthly_gst, monthly_post_gst, discount_pre_gst, discount_gst, discount_post_gst, net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst, security_pre_gst, security_gst, security_post_gst, p_fee_pre_gst, p_fee_gst, p_fee_post_gst, customer_payable_pre_gst, customer_payable_gst, customer_payable_post_gst, valid_from, valid_to, created_on, created_by) VALUES "+ 
-						"("+
-						String.format(" %d,",category_model_id) +
-						String.format(" %d, %d, %d,", monthly_pre_gst, monthly_gst, monthly_post_gst) +
-						String.format(" %d, %d, %d,", discount_pre_gst, discount_gst, discount_post_gst) +
-						String.format(" %d, %d, %d,", net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst) +
-						String.format(" %d, %d, %d,", security_pre_gst, security_gst, security_post_gst) +
-						String.format(" %d, %d, %d,", p_fee_pre_gst, p_fee_gst, p_fee_post_gst) +
-						String.format(" %d, %d, %d,", customer_payable_pre_gst, customer_payable_gst, customer_payable_post_gst)+
-						String.format(" %s, %s, %s, %s", valid_from.toString(), valid_to.toString(), created_on, created_by )+
-						" );\n" ;
-			 
+
+			String insertStatement = "INSERT INTO public.dms_price_mapping(monthly_pre_gst, monthly_gst, monthly_post_gst, discount_pre_gst, discount_gst, discount_post_gst, net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst, security_pre_gst, security_gst, security_post_gst, p_fee_pre_gst, p_fee_gst, p_fee_post_gst, customer_payable_pre_gst, customer_payable_gst, customer_payable_post_gst, valid_from, valid_to, created_on, created_by) VALUES "
+					+ "(" 
+					+ String.format(" %d, %d, %d,", monthly_pre_gst, monthly_gst, monthly_post_gst)
+					+ String.format(" %d, %d, %d,", discount_pre_gst, discount_gst, discount_post_gst)
+					+ String.format(" %d, %d, %d,", net_monthly_pre_gst, net_monthly_gst, net_monthly_post_gst)
+					+ String.format(" %d, %d, %d,", security_pre_gst, security_gst, security_post_gst)
+					+ String.format(" %d, %d, %d,", p_fee_pre_gst, p_fee_gst, p_fee_post_gst)
+					+ String.format(" %d, %d, %d,", customer_payable_pre_gst, customer_payable_gst,
+							customer_payable_post_gst)
+					+ String.format(" '%s', '%s', %s, '%s'", valid_from.toString(), valid_to.toString(), created_on,
+							created_by)
+					+ " );\n";
+
 			writer.append(insertStatement);
+			writer.flush();
 		}
 		writer.close();
 	}
